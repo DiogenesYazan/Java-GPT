@@ -1,3 +1,5 @@
+package javinha;
+
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
@@ -18,7 +20,7 @@ public class AIChatApp {
     public static void main(String[] args) {
         JFrame frame = new JFrame("AI Chat App");
         frame.setSize(800, 600);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         JPanel panel = new JPanel(new GridBagLayout());
         panel.setBackground(Color.DARK_GRAY);
